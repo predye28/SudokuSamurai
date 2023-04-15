@@ -1,0 +1,116 @@
+html{
+    background-color: #d4dfc7;
+    text-align: center;
+    font-family: cursive;
+}
+body{
+    
+    font-size: 16px;
+}
+#board{
+    width: 900px;
+    height: 900px;
+
+    background-color: #878e88;
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+#boardManual{
+    width: 900px;
+    height: 900px;
+
+    background-color: #878e88;
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+.box{
+    height: 127px;
+    width: 127px;
+    border: solid #878e88 2px;
+    background-color: #54413D;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.boxManual{
+    height: 127px;
+    width: 127px;
+    border: solid #878e88 2px;
+    background-color: #99412d;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.boxTransparent{
+    height: 127px;
+    width: 127px;
+    border: solid #d4dfc7 2px;
+    background-color: #d4dfc7;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.cell{
+    height:35px;
+    width: 35px;
+    margin: 1px;
+    text-align: center;
+    background-color: white;
+    font-size: x-large;
+    font-weight: bold;
+    color: #5a9b8b;
+}
+.cellCorner{
+    background-color: #d6d6d6;
+}
+.cellManual{
+    height:35px;
+    width: 35px;
+    margin: 1px;
+    text-align: center;
+    background-color: rgb(192, 170, 145);
+    font-size: x-large;
+    font-weight: bold;
+    color: #5a9b8b;
+}
+input{
+    height:27px;
+    width: 27px;
+    margin: 1px;
+    text-align: center;
+    background-color: rgb(192, 170, 145);
+    font-size: x-large;
+    font-weight: bold;
+    color: #5a9b8b;
+}
+button{
+
+  height: 65px;
+  font-size: 16px;
+}
+
+#title{
+    font-size: 34px;
+}
+.letraBottom{
+    font-family: cursive;
+}
+.barra{
+
+    height: 190px;
+    background-color: lightgray;
+    border: 2px solid black;
+    font-size: 8px;
+}
+.secuencia{
+    width: 90%;
+    height: 120px;
+    background-color: rgb(161, 161, 161);
+    border: 2px solid black;
+    font-size: 16px;
+    overflow: auto;
+    margin: auto;
+}
